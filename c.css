@@ -1,0 +1,166 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+.pic3{
+    background-image:url('bhoot.jpg');
+    min-height:100%;
+    position:relative;
+    background-position:center;
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+}
+.topnav{
+    overflow:hidden;
+    background-color:black;
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity:0.7;
+  }
+  
+  .ptext3{
+      position:absolute;
+      top:45%;
+      width:100%;
+      text-align:center;
+      color:#000;
+      font-size:27px;
+      letter-spacing:8px;
+      transition:transform 0.2s;
+
+  }
+  .ptext3:hover{
+      transform:scale(1.5);
+  }
+  .border3{
+      background-color:black;
+      color:white;
+      opacity:0.9;
+      padding:30px;
+      top:40%;
+      border-radius:20px;
+  }
+  a:hover{
+     background-color:grey;
+  }
+
+.accordionMenu{
+    width: 500px;
+    margin: 0 auto;
+}
+.accordionMenu input[type=radio]{
+    display: none;
+}
+.accordionMenu label{
+    display: block;
+    height: 50px;
+    line-height: 47px;
+    padding: 0 25px 0 10px;
+    background: #2c97de;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid #e6e6e6;
+}
+.accordionMenu label::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 10;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.accordionMenu .content{
+    max-height: 0;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+.accordionMenu .content .inner{
+    font-size: 1.2rem;
+    color: #2c97de;
+    line-height: 1.5;
+    background: white;
+    padding: 20px 10px;
+}
+.accordionMenu input[type=radio]:checked + label:after{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.accordionMenu input[type=radio]:checked + label + .content{
+    max-height: 2000px;
+    height: auto;
+}
+
+.o{
+    background-color:bisque;
+}
+.i{
+    background-color:black;
+    color:white;
+    text-align:center;
+    
+}
+.h{
+    font-size:60px;
+    font-family:monospace;
+    margin:15px;
+}
+h3{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+.links0{
+    margin-left:100px;
+    margin-right:20px;
+    float:left;
+}
+.links{
+    margin-left:20px;
+    margin-right:20px;
+}
+.icons1{
+    width:40px;
+    height:30px;
+}
+.u{
+    margin:bottom;
+    float:right;
+    margin-right:50px;
+    margin-bottom:100px;
+    margin-top:-1px;
+}
+.icons{
+    background-color:black;
+}
